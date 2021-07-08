@@ -201,7 +201,6 @@ func (provider *Provider) CallBundle(transactions []string, blockNumber *big.Int
 		StatusCode: httpResp.StatusCode,
 	}
 
-	fmt.Println(body)
 	fmt.Println(response)
 
 	err = json.Unmarshal(body, &response)
