@@ -101,6 +101,7 @@ type txResult struct {
 	TxHash            string `json:"txHash"`
 	Value             string `json:"value"`
 	Error             string `json:"error,omitempty"`
+	Revert			  string `json:"revert,omitempty"`
 }
 
 type callResult struct {
