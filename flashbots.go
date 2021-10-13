@@ -19,6 +19,7 @@ import (
 const (
 	DefaultRelayURL = "https://relay.flashbots.net"
 	TestRelayURL    = "https://relay-goerli.flashbots.net"
+	EdenRelayURL	= "https://api.edennetwork.io/v1/bundle"
 
 	MethodUserStats  = "flashbots_getUserStats"
 	MethodSendBundle = "eth_sendBundle"
