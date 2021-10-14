@@ -204,7 +204,8 @@ func (provider *Provider) CallBundle(transactions []string, blockNumber *big.Int
 	}
 
 	// simulation response
-	fmt.Println(response)
+	//fmt.Println(response)
+	// don't need this. You just print resp of result, and that's it
 
 	err = json.Unmarshal(body, &response)
 	if err != nil {
